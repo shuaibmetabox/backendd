@@ -1,0 +1,34 @@
+{
+  "name": "motivation_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type":"commonjs",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "node-fetch": "^2.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuaibmetabox/backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shuaibmetabox/backend/issues"
+  },
+  "homepage": "https://github.com/shuaibmetabox/backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
