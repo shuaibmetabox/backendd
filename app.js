@@ -18,8 +18,8 @@ const MAX_RETRIES = 5; //import gemini key and url, and init max tries to fect f
 
 app.use(cors({
     origin:[
-        'http:localhost:5500',
-        'https://motivationquotesgen.netlify.app/'
+        'http://localhost:5500',
+        'https://motivationquotesgen.netlify.app'
     ],
     methods: ['GET'],
 }));  //theses urls are allowed to use the backend, secure api
